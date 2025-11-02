@@ -43,5 +43,6 @@ int main()
     g->addEdge(3, 2);
     g->addEdge(3, 4);
     g->addEdge(4, 3);
+    delete g;
     return 0;
 }
